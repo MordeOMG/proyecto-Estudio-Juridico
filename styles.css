@@ -1,0 +1,104 @@
+:root{
+  --m-o: #483d36;
+  --m-i: #82725c;
+  --m-c: #bf9d5c;
+  --b-p: #f6fbf9;
+}
+
+[tema="light"]{
+  --m-o: #000;
+  --m-i: #000;
+  --m-c: #000;
+  --b-p: #000;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+#switch{
+  background: black;
+}
+body{
+  background: var(--b-p)
+}
+.navegacion{
+  align-items: center;
+}
+#nav-bar{  
+  color: white;
+  background: var(--b-p);
+  width: auto;
+  height: 55px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 55px;
+  z-index: 1;
+}
+#nav-bar-2{
+  height: 100%;
+  background: var(--b-p);
+  position: absolute;
+  position: fixed;
+  top: 0;
+  width: 55px;
+  z-index: 1;
+}
+#menu-home{
+  color: #82725c;
+  margin-right: auto;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 500ms;
+}
+#menu-home:hover{
+  color: var(--b-p);
+}
+#ul-home{
+  display: flex;
+  color:  black;
+  list-style: none;
+  height: 100%;
+  align-items: center;
+}
+.button-ul-home{
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+.link-ul-home{
+  color: var(--m-o);
+  text-decoration: none;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  transition-duration: 500ms;
+}
+.link-ul-home:hover{
+  color: #f6fbf9;
+}
+#menu-button{
+  font-size: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#menu h2{
+  font-size: 0;
+}
+#menu ul{
+  font-size: 0;
+}
+#menu:hover{
+  height: 100%;
+  width: 250px;
+  background: black;
+  position: fixed;
+}
+
+
